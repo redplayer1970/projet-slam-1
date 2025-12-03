@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+}
+.ent-tete{
+    display: flex;
+    justify-content: space-between;
+}
+.ent-tete h1{
+    margin-bottom: 2%;
+}
+.ent-tete img{
+    margin-left: 5%;
+}
+
+center{
+    color: orange;
+}
+.pagecommande{
+    display: flex;
+    gap:42%;
+}
+.validation{
+    margin-left: 4%;
+}
+.validation legend{
+    color: brown;
+}
+
+.validation input{
+    display: grid;
+    justify-content: space-between;
+    width: 150%;
+    height: 4em;
+    border-color: gray;
+}
+.infos{
+    display: grid;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.infos button:hover{
+    transform: scale(1.2);
+    background-color: green;
+}
+.infos legend{
+    color: brown;
+}
+
+address button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.envoyer input{
+    background-color:orange;
+    color: white;
+    border-radius: 100px;
+    margin-top: 8%;
+    border: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+.envoyer input:hover{
+    transform:scale(1.2);
+    background-color: green;
+
+}
+.infos  a{
+    text-decoration: none;
+    color: white;
+}
+.infos{
+
+}
+.infos button{
+    background-color: orange;
+    border: 0;
+    border-radius: 4px;
+    width: 100%;
+}
+.logo{
+   margin-left: 45%;
+   margin-top: 10%;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
