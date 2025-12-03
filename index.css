@@ -1,0 +1,22 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 49%;
+    height: 500px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 2em;
+}
+
+#pizza{
+    background-image: url("");
+}
+
+#kebab{
+    background-image: url("photos/Kebabs/Shawarma.jpg");
+}
