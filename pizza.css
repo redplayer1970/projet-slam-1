@@ -1,0 +1,36 @@
+th img{height: 400px;
+       width: 400px;
+       }
+
+th {border:1px solid black ;
+    border-radius: 30px;}
+
+table{width: 100%;}
+
+pre{color: orangered;
+}
+
+th button{width: 100px;
+          height: 25px;
+          background-color: orange;
+          border-radius: 50% 20% / 10% 40%;
+          border: none;
+          font-weight: bold}
+
+th h1{font-family: impact;}
+
+#titre{display: flex;
+       justify-content: center;
+       font-family: cursed;
+       color: orangered;}
+
+th p{font-weight: lighter;
+     color: gray;}
+
+#description{justify-content: center;
+             display: flex;
+             font-weight: bold;}
+@font-face {
+    font-family: 'cursed';
+    src: url(CursedClaw-Regular.ttf);
+}
