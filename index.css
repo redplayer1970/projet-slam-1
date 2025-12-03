@@ -14,9 +14,10 @@ button{
 }
 
 #pizza{
-    background-image: url("");
+    background-image: url("image pizza/pizza global.jpg");
 }
 
 #kebab{
     background-image: url("photos/Kebabs/Shawarma.jpg");
+
 }
