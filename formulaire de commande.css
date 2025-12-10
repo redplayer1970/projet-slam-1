@@ -19,12 +19,26 @@ body{
 center{
     color: orange;
 }
+
+form input{
+   justify-content: center;
+}
+
+
 .pagecommande{
-    display: flex;
-    gap:42%;
+    display: grid ;
+    
+
 }
 .validation{
     margin-left: 4%;
+    margin-top: 5%;
+}
+.validation fieldset{
+    width: 90%;
+    padding-left: 0%;
+    border-radius: 10%;
+    
 }
 .validation legend{
     color: brown;
@@ -33,14 +47,28 @@ center{
 .validation input{
     display: grid;
     justify-content: space-between;
-    width: 150%;
-    height: 4em;
+    width: 50%;
+    height: 3em;
     border-color: gray;
+    box-shadow: 1px 5px 5px grey;
+    
 }
 .infos{
     display: grid;
-    justify-content: space-between;
+    grid-template-columns: 1fr ;
     margin-right: 5%;
+    width: 50%;
+    margin-left: 35%;
+    margin-top: 5%;
+    gap: 15%;
+    margin-bottom: 3%;
+}
+
+
+.infos  button{
+    height: 100%;
+    width: 50%;
+    font-size:66%;
 }
 .infos button:hover{
     transform: scale(1.2);
@@ -59,10 +87,14 @@ address button{
     color: white;
     border-radius: 100px;
     margin-top: 8%;
+    margin-left:3% ;
+    margin-bottom: 5%;
     border: 0;
     padding-top: 1%;
     padding-bottom: 1%;
-    
+    width: 30%;
+    font-size: 60%;
+    box-shadow: 1px 5px 5px grey;
 }
 
 .envoyer input:hover{
@@ -74,20 +106,24 @@ address button{
     text-decoration: none;
     color: white;
 }
-.infos{
 
-}
 .infos button{
     background-color: orange;
     border: 0;
     border-radius: 4px;
-    width: 100%;
+    width: 70%;
+    height: 100%;
+}
+
+.infos fieldset{
+    width: 70%;
 }
 .logo{
-   margin-left: 45%;
-   margin-top: 10%;
+  margin-left: 50%;
+  margin-top: 20%;
 }
 .logo img{
     width: 100px;
     height: 100px;
 }
+
