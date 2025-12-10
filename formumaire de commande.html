@@ -7,56 +7,77 @@
     <link rel="stylesheet" href="formulaire de commande.css">
 </head>
 <body>
-      <center><h1>PASSER VOTRE COMMANDE </h1></center>
+    <div class="en-tete">
+        <img src="./Capture d'écran 2025-12-03 155340.png" alt="">
+    
+      <center><h1>PASSER VOTRE COMMANDE</h1></center>
+    </div>
      
   <div class="pagecommande">
         <div class="validation">
-           <form action="">
+            <fieldset>
+                <legend>
+
+                </legend>
+           <center>
+            <form action="">  
              <legend>NOM</legend>
-             <input type="text" id="nom " placeholder="NOM">
+              <input type="text" id="nom " placeholder="NOM">
              <br>
-             <legend>PRENOM</legend>
+              <legend>PRENOM</legend>
              <input type="text" id="prenom" placeholder="PRENOM">
+             <br>
              <legend>EMAIL</legend>
              <input type="email" id="email" placeholder="email:exemple@gmail.com">
-             <legend>NUMERO DE TEL</legend>
+             <br>
+             <legend> TELEPHONE</legend>
              <input type="tel" id="telephone" placeholder="numero:+33xxxxxxxxxx">
+             <br>
              <legend>ADRESSE</legend>
              <input type="text" id="adresse" placeholder="Adressse">
              <br>
 
              <!--validation de la commande-->
-             
+              
+                <div class="envoyer">
+                  <input class="envoyer" type="submit" id="soumettre" value="VALIDER VOTRE COMMANDE">
+                </div>
+            </center>
 
             </form>
+            </fieldset>
             
         </div>
         <div class="infos">
-            <h3>NOS CONTACTS</h3>
-            <legend>ADRESSE</legend>
+            <fieldset>
+            <legend>NOS INFORMATIONS </legend>
+            
             <address>
+                <legend>adresse</legend>
                 <button><a href="#">BORDERLAND</a></button>
             </address>
 
-            <legend>TELEPHONE</legend>
+            <legend>Téléphone</legend>
             <button><a href="#">TELEPHONE</a></button>
-            <legend>EMAIL</legend>
+            <br>
+            <legend>Email</legend>
             <button><a href="#">aliceinborderland@gmail.com</a></button>
-
-            <legend>HORAIRES D'OUVERTURES</legend>
+             <br>
+            <legend>Heures d'ouverture</legend>
             <fieldset>
+                <legend><div class="logo"><img src="./Capture d'écran 2025-12-03 155340.png" alt=""></div></legend>
                 <p>Lundi - Dimanche 
                     <br>
                  11h00 - 14h30 / 18h00 - 23h00
                 </p>
             </fieldset>
         </div>
+        </fieldset>
 
     </div>
-            <center><div class="envoyer">
-                <input class="envoyer" type="submit" id="validation" value="VALIDER VOTRE COMMANDE">
-            </div>
-            </center>
+           
+
+            
     
 </body>
 </html>
