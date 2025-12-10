@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+body{
+
+    background-color: white;
+}
+.valider{
+    margin: 20% 20%;
+    
+}
+
+.decision  a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+
+.decision button{
+    background-color: orange;
+    border: 0;
+    border-radius: 70px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+}
